@@ -11,7 +11,8 @@ import itertools
 import string    
 import time    
 
-client_ssid = "TP-Link_EBB8"
+# client_ssid = "TP-Link_EBB8"
+client_ssid= input("Enter the Network Name:")
 
 # Setting the color combinations
 RED   = "\033[1;31m"  
